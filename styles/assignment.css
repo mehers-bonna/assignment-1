@@ -1,17 +1,46 @@
-nav{
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.nav-bar{
     display: flex;
     justify-content: space-between;
     padding: 30px;
     margin: o auto;
-}
-nav h2{
     color: rgba(78, 71, 255, 1);
     font-weight: 600;
 }
-nav button{
+.nav-bar button{
     background-color: rgba(78, 71, 255, 1);
     border-radius: 10px;
-    padding: 10px;
-    border: 40px solid;
+    padding: 0px 10px;
     color: white;
 }
+.head-content{
+    text-align: center;
+    padding: 100px;
+}
+.head-content button{
+    background-color:rgba(78, 71, 255, 1);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.head-container{
+    background-position: 100px;
+    padding: 10px 30;
+}
+
