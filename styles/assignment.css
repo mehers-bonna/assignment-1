@@ -166,5 +166,28 @@ button{
     color: white;
     border-radius: 5px;
     padding: 10px 20px;
-    width: 100%;
+    width: 115%;
+}
+/* footer section */
+.footmain{
+  text-align: center;
+  background-color: white;
+}
+.footlogo{
+  font-size:100px;
+  color:rgba(78, 71, 255, 1);
+}
+.footdes{
+  color: rgba(137, 135, 161, 1);
+}
+.footlinks{
+  color: rgba(137, 135, 161, 1);
+  justify-content: space-between;
+}
+.footlinks a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+  margin-right: 30px;
+  text-align: center;
+  justify-content: space-between;
 }
