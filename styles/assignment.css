@@ -13,8 +13,12 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* button */
+button{
+    border: none;
+}
 
-
+/* banner section */
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -43,4 +47,18 @@
     background-position: 100px;
     padding: 10px 30;
 }
-
+/* action section */
+.action-container{
+    display: flex;
+    margin: 116px 160px;
+    justify-content: space-between;
+}
+.action-container button{
+    border-radius: 10px;
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    padding: 10px;
+    }
+.action-container img{
+    border-radius: 20px;
+}
